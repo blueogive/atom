@@ -7,10 +7,10 @@ autocomplete-python@1.2.4
 git-plus@5.7.0
 language-latex@0.6.1
 language-r@0.4.0
+language-sas@0.2.4
 linter@1.11.3
 linter-python-pep8@0.2.0
 merge-conflicts@1.3.7
 transient-emacs@0.8.5
 vim-mode@0.64.0
 zenburn@3.0.0
-
