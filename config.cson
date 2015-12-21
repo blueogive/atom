@@ -1,0 +1,29 @@
+"*":
+  "exception-reporting":
+    userId: "fc4b8bfe-c396-dcde-78a6-fe7bab3e5b72"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "1692b15ee7ecac8c17d5fd444f86c0f090606ab2"
+  core:
+    themes: [
+      "atom-dark-ui"
+      "zenburn"
+    ]
+    projectHome: "~"
+    disabledPackages: [
+      "vim-mode"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "Source Code Pro"
+    tabLength: 4
+    showIndentGuide: true
+    lineHeight: 1.2
+    tabType: "soft"
+    backUpBeforeSaving: true
+  linter: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "atom-beautify":
+    _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
