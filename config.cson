@@ -13,6 +13,8 @@
     projectHome: "~"
     disabledPackages: [
       "vim-mode"
+      "atom-terminal-panel"
+      "script"
     ]
   editor:
     invisibles: {}
@@ -27,5 +29,6 @@
     hideVcsIgnoredFiles: true
   "atom-beautify":
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
+    css_align_assignments: true
   "atom-terminal-panel": {}
   Hydrogen: {}
