@@ -62,6 +62,10 @@
     'ctrl-q': 'application:quit'
     'ctrl-g': 'core:cancel'
 
+# Disable Enter key for confirming an autocomplete suggestion
+'atom-text-editor:not(mini).autocomplete.active':
+    'enter': 'editor:newline'
+    
 'body':
     'alt-k': 'core:move-down'
     'alt-i': 'core:move-up'
