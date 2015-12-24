@@ -32,3 +32,23 @@
     css_align_assignments: true
   "atom-terminal-panel": {}
   Hydrogen: {}
+".console.python.text":
+  editor:
+    softWrap: false
+    softWrapHangingIndent: 4
+    softWrapAtPreferredLineLength: true
+".python.text.traceback":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 4
+".python.regexp.source":
+  editor:
+    softWrapHangingIndent: 4
+".python.source":
+  editor:
+    softWrap: false
+    softWrapHangingIndent: 4
+    softWrapAtPreferredLineLength: true
+'.source.python':
+  whitespace:
+    removeTrailingWhitespace: true
