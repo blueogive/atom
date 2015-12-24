@@ -7,7 +7,9 @@
     'ctrl-f': 'find-and-replace:find-next'
     'ctrl-alt-f': 'find-and-replace:replace-next'
     'alt-k': 'core:move-down'
+    'ctrl-alt-k': 'core:page-down'
     'alt-i': 'core:move-up'
+    'ctrl-alt-i': 'core:page-up'
     'alt-n': 'core:move-to-top'
     'shift-alt-n': 'core:move-to-bottom'
     'alt-j': 'core:move-left'
@@ -65,7 +67,7 @@
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete.active':
     'enter': 'editor:newline'
-    
+
 'body':
     'alt-k': 'core:move-down'
     'alt-i': 'core:move-up'
