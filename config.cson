@@ -13,8 +13,8 @@
     projectHome: "~"
     disabledPackages: [
       "vim-mode"
-      "atom-terminal-panel"
       "script"
+      "atom-terminal-panel"
     ]
   editor:
     invisibles: {}
@@ -32,6 +32,7 @@
     css_align_assignments: true
   "atom-terminal-panel": {}
   Hydrogen: {}
+  "atom-terminal": {}
 ".console.python.text":
   editor:
     softWrap: false
@@ -49,6 +50,5 @@
     softWrap: false
     softWrapHangingIndent: 4
     softWrapAtPreferredLineLength: true
-'.source.python':
   whitespace:
     removeTrailingWhitespace: true
