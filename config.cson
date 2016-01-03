@@ -33,18 +33,18 @@
   "atom-terminal-panel": {}
   Hydrogen: {}
   "atom-terminal": {}
+".python.regexp.source":
+  editor:
+    softWrapHangingIndent: 4
+".python.text.traceback":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 4
 ".console.python.text":
   editor:
     softWrap: false
     softWrapHangingIndent: 4
     softWrapAtPreferredLineLength: true
-".python.text.traceback":
-  editor:
-    softWrapAtPreferredLineLength: true
-    softWrapHangingIndent: 4
-".python.regexp.source":
-  editor:
-    softWrapHangingIndent: 4
 ".python.source":
   editor:
     softWrap: false
