@@ -29,6 +29,9 @@
     'alt-s': 'window:focus-next-pane'
     'ctrl-alt-4': 'pane:split-right'
     'alt-a': 'command-palette:toggle'
+    'alt-[': 'select-rectangle:select'
+    'alt-]': 'select-rectangle:clear'
+    'alt-}': 'select-rectangle:open'
 
 'atom-workspace atom-text-editor:not(.mini)':
     'alt-u': 'editor:move-to-beginning-of-word'
