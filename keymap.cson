@@ -39,6 +39,7 @@
     'alt-=': 'editor:duplicate-lines'
     'ctrl-t': 'editor:move-line-up'
     'shift-ctrl-t': 'editor:move-line-down'
+    'alt-t': 'editor:transpose'
     'alt-;': 'editor:toggle-line-comments'
     'alt-q': 'autoflow:reflow-selection'
     'alt-6': 'editor:join-lines'
@@ -67,17 +68,21 @@
     'ctrl-q': 'application:quit'
     'ctrl-g': 'core:cancel'
     # Markdown-Writer
-    # "shift-ctrl-K": "markdown-writer:insert-link"
-    # "shift-ctrl-I": "markdown-writer:insert-image"
-    # "ctrl-i":       "markdown-writer:toggle-italic-text"
-    # "ctrl-b":       "markdown-writer:toggle-bold-text"
-    # "ctrl-'":       "markdown-writer:toggle-code-text"
-    # "ctrl-h":       "markdown-writer:toggle-strikethrough-text"
-    "ctrl-1":       "markdown-writer:toggle-h1"
-    "ctrl-2":       "markdown-writer:toggle-h2"
-    "ctrl-3":       "markdown-writer:toggle-h3"
-    "ctrl-4":       "markdown-writer:toggle-h4"
-    "ctrl-5":       "markdown-writer:toggle-h5"
+    # 'shift-ctrl-K': 'markdown-writer:insert-link'
+    # 'shift-ctrl-I': 'markdown-writer:insert-image'
+    # 'ctrl-i': 'markdown-writer:toggle-italic-text'
+    # 'ctrl-b': 'markdown-writer:toggle-bold-text'
+    # 'ctrl-'': 'markdown-writer:toggle-code-text'
+    # 'ctrl-h': 'markdown-writer:toggle-strikethrough-text'
+    'ctrl-1': 'markdown-writer:toggle-h1'
+    'ctrl-2': 'markdown-writer:toggle-h2'
+    'ctrl-3': 'markdown-writer:toggle-h3'
+    'ctrl-4': 'markdown-writer:toggle-h4'
+    'ctrl-5': 'markdown-writer:toggle-h5'
+    'ctrl-up': 'ctrl-dir-scroll:scroll-up'
+    'ctrl-down': 'ctrl-dir-scroll:scroll-down'
+    'ctrl-[': 'ctrl-dir-scroll:scroll-up-big'
+    'ctrl-]': 'ctrl-dir-scroll:scroll-down-big'
 
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete.active':
