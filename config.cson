@@ -33,6 +33,7 @@
   "atom-terminal-panel": {}
   Hydrogen: {}
   "atom-terminal": {}
+  "ctrl-dir-scroll": {}
 ".python.regexp.source":
   editor:
     softWrapHangingIndent: 4
