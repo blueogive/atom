@@ -7,7 +7,7 @@ autocomplete-python@1.5.1
 ctrl-dir-scroll@0.2.2
 file-watcher@0.4.0
 format-sql@0.3.0
-git-plus@5.12.0
+git-plus@5.12.1
 language-latex@0.6.1
 language-r@0.4.0
 language-sas@0.2.4
@@ -22,6 +22,7 @@ quick-query@0.6.2
 quick-query-mssql@0.1.1
 script@3.4.1
 select-rectangle@1.0.2
+split-diff@0.5.4
 transient-emacs@0.8.5
 vim-mode@0.64.0
 zenburn@3.0.0
