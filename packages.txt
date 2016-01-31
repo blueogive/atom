@@ -1,11 +1,13 @@
 Hydrogen@0.6.5
 advanced-open-file@0.14.1
 atom-beautify@0.28.21
+atom-commander@0.6.0
 atom-python-debugger@0.3.4
 atom-terminal@0.8.0
 atom-terminal-panel@4.4.4
 autocomplete-python@1.5.1
 ctrl-dir-scroll@0.2.2
+disable-keybindings@0.6.0
 file-watcher@0.4.0
 format-sql@0.3.0
 git-plus@5.12.1

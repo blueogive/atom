@@ -18,6 +18,14 @@
       "zenburn"
     ]
   "ctrl-dir-scroll": {}
+  "disable-keybindings":
+    bundledPackages: [
+      "encoding-selector"
+    ]
+    communityPackages: [
+      "quick-query"
+      "ctrl-dir-scroll"
+    ]
   editor:
     backUpBeforeSaving: true
     fontFamily: "Source Code Pro"
