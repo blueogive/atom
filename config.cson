@@ -11,6 +11,10 @@
       "script"
       "atom-terminal-panel"
       "transient-emacs"
+      "split-diff"
+    ]
+    packagesWithKeymapsDisabled: [
+      "ctrl-dir-scroll"
     ]
     projectHome: "~"
     themes: [
