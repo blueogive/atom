@@ -40,6 +40,7 @@
     'ctrl-k ctrl-n': 'quick-query:new-editor'
     'ctrl-k ctrl-c': 'quick-query:new-connection'
     'ctrl-k ctrl-e': 'quick-query:run'
+    'alt-q': 'autoflow:reflow-selection'
 
 'atom-workspace atom-text-editor:not(.mini)':
     'alt-u': 'editor:move-to-beginning-of-word'
@@ -49,7 +50,6 @@
     'shift-ctrl-t': 'editor:move-line-down'
     'alt-t': 'editor:transpose'
     'alt-;': 'editor:toggle-line-comments'
-    'alt-q': 'autoflow:reflow-selection'
     'alt-6': 'editor:join-lines'
     'ctrl-x': 'core:cut'
     'ctrl-v': 'core:paste'
