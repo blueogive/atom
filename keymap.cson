@@ -73,13 +73,6 @@
     'ctrl-n': 'application:new-file'
     'ctrl-o': 'advanced-open-file:toggle'
     'ctrl-g': 'core:cancel'
-    # Markdown-Writer
-    # 'shift-ctrl-k': 'markdown-writer:insert-link'
-    # 'shift-ctrl-i': 'markdown-writer:insert-image'
-    # 'ctrl-i': 'markdown-writer:toggle-italic-text'
-    # 'ctrl-b': 'markdown-writer:toggle-bold-text'
-    # 'ctrl-'': 'markdown-writer:toggle-code-text'
-    # 'ctrl-h': 'markdown-writer:toggle-strikethrough-text'
     'ctrl-1': 'markdown-writer:toggle-h1'
     'ctrl-2': 'markdown-writer:toggle-h2'
     'ctrl-3': 'markdown-writer:toggle-h3'
@@ -87,9 +80,22 @@
     'ctrl-5': 'markdown-writer:toggle-h5'
     'ctrl-f': 'find-and-replace:toggle'
 
+# Markdown-Writer
+# '.markdown-writer atom-text-editor[mini]':
+    # 'shift-ctrl-k': 'markdown-writer:insert-link'
+    # 'shift-ctrl-i': 'markdown-writer:insert-image'
+    # 'ctrl-i': 'markdown-writer:toggle-italic-text'
+    # 'ctrl-b': 'markdown-writer:toggle-bold-text'
+    # 'ctrl-\'': 'markdown-writer:toggle-code-text'
+    # 'ctrl-h': 'markdown-writer:toggle-strikethrough-text'
+
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete.active':
     'enter': 'editor:newline'
+
+# Disable a key binding entirely
+# 'body':
+    # 'ctrl-alt-p': 'abort!'
 
 'body':
     'alt-k': 'core:move-down'
@@ -97,8 +103,8 @@
     'ctrl-s': 'core:save'
     # 'ctrl-up': 'ctrl-dir-scroll:scroll-up-big'
     # 'ctrl-down': 'ctrl-dir-scroll:scroll-down-big'
-    'ctrl-alt-p': 'ctrl-dir-scroll:scroll-up-big'
-    'ctrl-alt-n': 'ctrl-dir-scroll:scroll-down-big'
+    'ctrl-alt-,': 'ctrl-dir-scroll:scroll-up'
+    'ctrl-alt-/': 'ctrl-dir-scroll:scroll-down'
     'ctrl-q': 'application:quit'
 
 'atom-workspace atom-panel':
@@ -107,3 +113,7 @@
     'alt-k': 'core:move-down'
     'alt-i': 'core:move-up'
     'alt-s': 'core:focus-next'
+
+'.advanced-open-file atom-text-editor':
+    'alt-k': 'advanced-open-file:move-cursor-down'
+    'alt-i': 'advanced-open-file:move-cursor-up'
