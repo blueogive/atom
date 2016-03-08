@@ -1,5 +1,6 @@
 "*":
-  Hydrogen: {}
+  Hydrogen:
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"language\":\"python\",\"display_name\":\"Python 3\",\"env\":{},\"argv\":[\"/home/mark/.pythonvirtualenvs/py35/bin/python\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.pythonvirtualenvs/py35/lib/python3.5/site-packages/ipykernel/resources\"},\"ir\":{\"spec\":{\"language\":\"R\",\"display_name\":\"R\",\"env\":{},\"argv\":[\"/usr/local/lib/R/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.local/share/jupyter/kernels/ir\"}}}"
   "atom-beautify":
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
@@ -59,7 +60,7 @@
     softWrapHangingIndent: 4
 ".python.source":
   editor:
-    softWrap: false
+    softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 4
   whitespace:
