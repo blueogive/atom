@@ -50,11 +50,27 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".basic.html.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".bibtex.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
 ".console.python.text":
   editor:
     softWrap: false
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 4
+".latex.rd.tex.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".latex.tex.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
 ".python.regexp.source":
   editor:
     softWrapHangingIndent: 4
@@ -69,3 +85,15 @@
   editor:
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 4
+".r.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".sas.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".source.sql":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
