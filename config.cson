@@ -1,6 +1,6 @@
 "*":
   Hydrogen:
-    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"language\":\"python\",\"display_name\":\"Python 3\",\"env\":{},\"argv\":[\"/home/mark/.pythonvirtualenvs/py35/bin/python\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.pythonvirtualenvs/py35/lib/python3.5/site-packages/ipykernel/resources\"},\"ir\":{\"spec\":{\"language\":\"R\",\"display_name\":\"R\",\"env\":{},\"argv\":[\"/usr/local/lib/R/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.local/share/jupyter/kernels/ir\"}}}"
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"language\":\"python\",\"env\":{},\"display_name\":\"Python 3\",\"argv\":[\"/home/mark/.pythonvirtualenvs/py35/bin/python\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.pythonvirtualenvs/py35/lib/python3.5/site-packages/ipykernel/resources\"},\"ir\":{\"spec\":{\"language\":\"R\",\"env\":{},\"display_name\":\"R\",\"argv\":[\"/usr/local/lib/R/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.local/share/jupyter/kernels/ir\"}}}"
   "atom-beautify":
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
@@ -13,6 +13,7 @@
       "atom-terminal-panel"
       "transient-emacs"
       "split-diff"
+      "language-gfm"
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
@@ -42,8 +43,9 @@
   "exception-reporting":
     userId: "fc4b8bfe-c396-dcde-78a6-fe7bab3e5b72"
   linter: {}
+  "markdown-preview": {}
   "markdown-writer":
-    fileExtension: ".md"
+    fileExtension: {".md", ".Rmd"}
   metrics:
     userId: "1692b15ee7ecac8c17d5fd444f86c0f090606ab2"
   "tree-view":
@@ -70,6 +72,9 @@
 ".latex.tex.text":
   editor:
     softWrap: true
+    softWrapAtPreferredLineLength: true
+".md.text":
+  editor:
     softWrapAtPreferredLineLength: true
 ".python.regexp.source":
   editor:
