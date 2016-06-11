@@ -67,21 +67,7 @@
     'ctrl-n': 'application:new-file'
     'ctrl-o': 'advanced-open-file:toggle'
     'ctrl-g': 'core:cancel'
-    'ctrl-1': 'markdown-writer:toggle-h1'
-    'ctrl-2': 'markdown-writer:toggle-h2'
-    'ctrl-3': 'markdown-writer:toggle-h3'
-    'ctrl-4': 'markdown-writer:toggle-h4'
-    'ctrl-5': 'markdown-writer:toggle-h5'
     'ctrl-f': 'find-and-replace:toggle'
-
-# Markdown-Writer
-# '.markdown-writer atom-text-editor[mini]':
-    # 'shift-ctrl-k': 'markdown-writer:insert-link'
-    # 'shift-ctrl-i': 'markdown-writer:insert-image'
-    # 'ctrl-i': 'markdown-writer:toggle-italic-text'
-    # 'ctrl-b': 'markdown-writer:toggle-bold-text'
-    # 'ctrl-\'': 'markdown-writer:toggle-code-text'
-    # 'ctrl-h': 'markdown-writer:toggle-strikethrough-text'
 
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete.active':
