@@ -4,7 +4,9 @@
   "atom-beautify":
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
-  "atom-terminal": {}
+  "atom-terminal":
+    app: "/usr/bin/byobu"
+    args: "-R"
   "atom-terminal-panel": {}
   core:
     disabledPackages: [
@@ -45,7 +47,7 @@
   linter: {}
   "markdown-preview": {}
   "markdown-writer":
-    fileExtension: {".md", ".Rmd"}
+    fileExtension: {}
   metrics:
     userId: "1692b15ee7ecac8c17d5fd444f86c0f090606ab2"
   "tree-view":
