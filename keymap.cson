@@ -67,7 +67,7 @@
     'ctrl-n': 'application:new-file'
     'ctrl-o': 'advanced-open-file:toggle'
     'ctrl-g': 'core:cancel'
-    'ctrl-f': 'find-and-replace:toggle'
+    'ctrl-f': 'find-and-replace:show'
 
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete.active':
