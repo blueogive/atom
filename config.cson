@@ -5,7 +5,9 @@
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
   core:
-    disabledPackages: []
+    disabledPackages: [
+      "language-gfm"
+    ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
     ]
@@ -39,9 +41,13 @@
     userId: "1692b15ee7ecac8c17d5fd444f86c0f090606ab2"
   "terminal-plus":
     core:
+      shell: "/usr/bin/byobu"
+      shellArguments: "-R"
       workingDirectory: "Active File"
     style:
       theme: "novel"
+    toggles:
+      autoClose: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
