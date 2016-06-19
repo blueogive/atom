@@ -5,8 +5,7 @@
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
   core:
-    disabledPackages: [
-    ]
+    disabledPackages: []
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
     ]
