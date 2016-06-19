@@ -47,7 +47,7 @@
     style:
       theme: "novel"
     toggles:
-      autoClose: true
+      autoClose: false
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
