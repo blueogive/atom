@@ -1,21 +1,11 @@
 "*":
   Hydrogen:
-    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"language\":\"python\",\"env\":{},\"display_name\":\"Python 3\",\"argv\":[\"/home/mark/.pythonvirtualenvs/py35/bin/python\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.pythonvirtualenvs/py35/lib/python3.5/site-packages/ipykernel/resources\"},\"ir\":{\"spec\":{\"language\":\"R\",\"env\":{},\"display_name\":\"R\",\"argv\":[\"/usr/local/lib/R/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"]},\"resources_dir\":\"/home/mark/.local/share/jupyter/kernels/ir\"}}}"
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"argv\":[\"/home/mark/.pythonvirtualenvs/py35/bin/python\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"],\"language\":\"python\",\"env\":{},\"display_name\":\"Python 3\"},\"resource_dir\":\"/home/mark/.pythonvirtualenvs/py35/lib/python3.5/site-packages/ipykernel/resources\"},\"ir\":{\"spec\":{\"argv\":[\"/usr/lib64/MRO-3.2.3/R-3.2.3/lib/R/bin/R\",\"--slave\",\"-e\",\"IRkernel::main()\",\"--args\",\"{connection_file}\"],\"language\":\"R\",\"env\":{},\"display_name\":\"R\"},\"resource_dir\":\"/home/mark/.local/share/jupyter/kernels/ir\"}}}"
   "atom-beautify":
     _analyticsUserId: "f0aae92e-44dd-44a6-833b-4dafbd3678c8"
     css_align_assignments: true
-  "atom-terminal":
-    app: "/usr/bin/byobu"
-    args: "-R"
-  "atom-terminal-panel": {}
   core:
     disabledPackages: [
-      "vim-mode"
-      "script"
-      "atom-terminal-panel"
-      "transient-emacs"
-      "split-diff"
-      "language-gfm"
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
@@ -46,10 +36,13 @@
     userId: "fc4b8bfe-c396-dcde-78a6-fe7bab3e5b72"
   linter: {}
   "markdown-preview": {}
-  "markdown-writer":
-    fileExtension: {}
   metrics:
     userId: "1692b15ee7ecac8c17d5fd444f86c0f090606ab2"
+  "terminal-plus":
+    core:
+      workingDirectory: "Active File"
+    style:
+      theme: "novel"
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
