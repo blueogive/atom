@@ -3,8 +3,17 @@
     'alt-m': 'git-plus:menu'
     'ctrl-shift-f': 'project-find:show'
 
+'atom-text-editor.conflicted':
+  'alt-m n': 'merge-conflicts:next-unresolved'
+  'alt-m p': 'merge-conflicts:previous-unresolved'
+  'alt-m enter': 'merge-conflicts:accept-current'
+  'alt-m r': 'merge-conflicts:revert-current'
+  'alt-m 1': 'merge-conflicts:accept-ours'
+  'alt-m 2': 'merge-conflicts:accept-theirs'
+
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
     'ctrl-alt-j': 'terminal-plus:insert-selected-text'
+    'alt-m d': 'merge-conflicts:detect'
 
 'atom-workspace atom-text-editor':
     'ctrl-f ctrl-n': 'find-and-replace:find-next'
