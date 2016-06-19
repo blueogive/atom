@@ -46,6 +46,8 @@
       workingDirectory: "Active File"
     style:
       theme: "novel"
+    toggles:
+      autoClose: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
