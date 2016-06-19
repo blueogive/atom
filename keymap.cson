@@ -3,6 +3,9 @@
     'alt-m': 'git-plus:menu'
     'ctrl-shift-f': 'project-find:show'
 
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+    'ctrl-alt-j': 'terminal-plus:insert-selected-text'
+
 'atom-workspace atom-text-editor':
     'ctrl-f ctrl-n': 'find-and-replace:find-next'
     'ctrl-f ctrl-p': 'find-and-replace:find-previous'
